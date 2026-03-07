@@ -1,0 +1,3 @@
+/* App-level overrides — keep minimal, design system is in index.css */
+* { box-sizing: border-box; }
+body { background: var(--bg); }
