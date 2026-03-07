@@ -3,7 +3,15 @@ import API from "../services/api"
 import { useNavigate, Link } from "react-router-dom"
 import { useAuth } from "../context/AuthContext"
 import toast from "react-hot-toast"
+const API = "https://shopez-backend-wl08.onrender.com";
 
+fetch(`${API}/api/auth/signup`, {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify({ name, email, password })
+});
 export default function Register() {
   const [form, setForm] = useState({ username: "", email: "", password: "" })
   const [loading, setLoading] = useState(false)
