@@ -58,7 +58,7 @@ ShopEZ
 Clone the repository
 
 ```
-git clone https://github.com/yourusername/shopez.git
+git clone https://github.com/Jayant817/shopez.git
 ```
 
 Go to project folder
