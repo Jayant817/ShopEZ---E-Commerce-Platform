@@ -5,7 +5,8 @@ ShopEZ is a full-stack eCommerce web application built using the **MERN stack (M
 It allows users to browse products, create accounts, and interact with a modern online shopping platform.
 
 ---
-
+## Live Demo
+https://shop-ez-e-commerce-platform.vercel.app/
 ## 🚀 Features
 
 * 🔐 User authentication (Signup / Login)
